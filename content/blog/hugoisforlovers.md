@@ -2,7 +2,7 @@
 categories:
 - Development
 - golang
-date: "2014-04-02"
+date: "2020-05-15"
 description: ""
 highlight: "true"
 tags:
@@ -10,10 +10,10 @@ tags:
 - golang
 - hugo
 - development
-title: Getting Started with Hugo
+title: Hey Katie!
 ---
 
-## Step 1. Install Hugo
+## Step 1. Install Hugos
 
 Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
 appropriate version for your os and architecture.

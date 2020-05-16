@@ -31,7 +31,6 @@ Regular expression functions include re.match(r"expression",string), re.sub(patt
 
 ```{python}
 print("Hello World!")
-x="dog"
 ```
 
 ## Regular Expressions: Conclusion 

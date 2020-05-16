@@ -1,17 +1,15 @@
 ---
-title: How Regex can save your life!
+title: How REGEX can save your life!
 author: Josh Goh
 date: '2020-05-15'
 slug: how-regex-can-save-your-life
 categories: []
-tags: []
+tags:
+  - REGEX
+  - Python
+  - development
 description: ''
 ---
-```{R}
-library(reticulate)
-Sys.setenv("/usr/bin/python")
-use_python("usr/bin/python")
-```
 
 # **How REGEX can save your life!**
 
@@ -28,9 +26,20 @@ You're probably wondering what REGEX is. You're probably also wondering why it c
 I honestly can't fathom using my computer without command + F anymore. If you don't know what command + F is, in short, it is a life-saving tool that helps you search for text throughout a document, webpage, or file. Regex does the same, except it is able to extract information from text with specific texts and/or patterns. Cleaning data, reformatting, web scraping, and text replacement become a breeze with REGEX. 
 
 ## Regular Expressions: How?
-Regular expression functions include re.match(r"expression",string), re.sub(pattern, repl, string), re.search(r"expression",string), re.split(r"expression",string), and re.findall(r"expression",string). Combining regex with other functions as well as pandas unlocks unlimited possibilities.
-![](/blog/2020-05-15-how-regex-can-save-your-life_files/figure.png)
+re.match(r"expression",string) 
 
+re.sub(pattern, repl, string)
+
+re.search(r"expression",string) 
+
+re.split(r"expression",string) 
+
+re.findall(r"expression",string) 
+
+match=re.match(r"expression",string) 
+match.group() 
+
+Combine with other functions as well as pandas
 ```{python}
 print("Hello World!")
 ```

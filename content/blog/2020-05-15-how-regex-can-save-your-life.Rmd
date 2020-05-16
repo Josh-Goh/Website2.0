@@ -9,6 +9,11 @@ tags:
   - Python
 description: ''
 ---
+```{R}
+library(reticulate)
+Sys.setenv("/usr/bin/python")
+use_python("usr/bin/python")
+```
 
 # **How REGEX can save your life!**
 

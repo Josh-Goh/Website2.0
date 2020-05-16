@@ -39,10 +39,15 @@ re.findall(r"expression",string)
 match=re.match(r"expression",string) 
 match.group() 
 
-Combine with other functions as well as pandas
+![](/blog/2020-05-15-how-regex-can-save-your-life_files/figure.png)
+```{R}
+library(reticulate)
+Sys.setenv("/usr/bin/python")
+use_python("usr/bin/python")
+```
+
 ```{python}
 print("Hello World!")
 ```
-
 ## Regular Expressions: Conclusion 
 Go visit [The Machine Learning Lab](http://play.inginf.units.it/#/) for some practice!

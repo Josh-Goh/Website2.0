@@ -1,12 +1,10 @@
 ---
-title: How REGEX can save your life!
+title: How Regex can save your life!
 author: Josh Goh
 date: '2020-05-15'
 slug: how-regex-can-save-your-life
 categories: []
-tags:
-  - REGEX
-  - Python
+tags: []
 description: ''
 ---
 ```{R}
@@ -31,7 +29,6 @@ I honestly can't fathom using my computer without command + F anymore. If you do
 
 ## Regular Expressions: How?
 Regular expression functions include re.match(r"expression",string), re.sub(pattern, repl, string), re.search(r"expression",string), re.split(r"expression",string), and re.findall(r"expression",string). Combining regex with other functions as well as pandas unlocks unlimited possibilities.
-
 ![](/blog/2020-05-15-how-regex-can-save-your-life_files/figure.png)
 
 ```{python}
